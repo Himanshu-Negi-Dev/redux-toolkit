@@ -9,7 +9,7 @@ const Posts = () => {
   const handleDelete = (e) => {};
 
   const postsRender = posts.map((post) => (
-    <div style={{ border: "1px solid black", margin: "5px 0" }} key={post.Id}>
+    <div style={{ border: "1px solid black", margin: "5px 0" }} key={post.id}>
       <h1>{post.title}</h1>
       <p>{post.content}</p>
       <div>
